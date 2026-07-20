@@ -293,3 +293,20 @@ Following @carnot1824, we observe how environmental variables (P, T) correlate w
 <iframe data-src='media/plots/resistance_anova.html' width='100%' height='500px' style='border:none;'></iframe>
 ::: 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Dimensional Correlation
+
+**Key Observations:**
+- Evaluation of how PartLength relates to $\Omega$.
+- Differentiation by machine processing units.
+- Data points clustered by Temperature/Pressure settings.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/length_vs_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
