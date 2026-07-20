@@ -272,3 +272,24 @@ Following @carnot1824, we observe how environmental variables (P, T) correlate w
 ![](media/pics/logo1.png)
 :::
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Statistical Analysis (ANOVA)
+
+**Decision Support:**
+- **Hypothesis:** Does varying P/T significantly impact $\Omega$?
+- **Result:** The calculated p-value is **0** (to 4 decimal places).
+- **Conclusion:** There is a statistically significant difference between the machines.
+
+**Quality Target:**
+- USL: 10 $\Omega$
+- Objective: Minimize resistance.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_anova.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
