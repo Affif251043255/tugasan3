@@ -1,0 +1,5 @@
+library(tidyverse)
+library(plotly)
+data_sub <- X002..3. %>% filter(Machine == 3, Temperature == 373, Pressure == 300)
+p <- ggplot(data_sub, aes(x = Timestamp, y = PartResistance)) + geom_line() + geom_point()
+saveWidget(ggplotly(p), 'machine3_part_resistance.html')
