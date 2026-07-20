@@ -437,5 +437,134 @@ Following @carnot1824, we observe how environmental variables (P, T) correlate w
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Impact of Pressure and Temperature on Part Resistance
+
+**Overview:**
+This slide visualizes the distribution of `PartResistance` across different machine operating conditions, highlighting the impact of varying pressure and temperature. The goal is to understand how these factors influence product quality, specifically part resistance.
+
+**Machine Operating Conditions:**
+*   **Machine 1:**
+    *   Temperature: 303 K
+    *   Pressure: 100 kPa
+    *   Output: `PartLength` (mm), `PartResistance` (Ohms)
+*   **Machine 2:**
+    *   Temperature: 338 K
+    *   Pressure: 200 kPa
+    *   Output: `PartLength` (mm), `PartResistance` (Ohms)
+*   **Machine 3:**
+    *   Temperature: 373 K
+    *   Pressure: 300 kPa
+    *   Output: `PartLength` (mm), `PartResistance` (Ohms)
+
+**Quality Target:**
+- **Upper Specification Limit (USL):** 10 $\Omega$
+- **Objective:** Lower resistance is better.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/machine_conditions_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine Performance Analysis
+
+**Operational Parameters:**
+- **Machine 1:** 303 K | 100 kPa
+- **Machine 2:** 338 K | 200 kPa
+- **Machine 3:** 373 K | 300 kPa
+
+**Quality Benchmarks:**
+- **USL:** 10 $\Omega$
+- **Objective:** Minimize $\Omega$ (Lower is better).
+
+**Observations:**
+As P and T increase across machines, we evaluate the stability of the output PartResistance relative to the Upper Specification Limit.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_boxplots.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine Performance Analysis
+
+**Operational Parameters:**
+- **Machine 1:** 303 K | 100 kPa
+- **Machine 2:** 338 K | 200 kPa
+- **Machine 3:** 373 K | 300 kPa
+
+**Quality Benchmarks:**
+- **USL:** 10 $\Omega$
+- **Objective:** Minimize $\Omega$ (Lower is better).
+
+**Analysis:**
+As shown in the chart, we evaluate the distribution of `PartResistance` against environmental stressors. The dashed line indicates the Upper Specification Limit.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_live_box.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine Performance Analysis
+
+**Operational Parameters:**
+- **Machine 1:** 303 K | 100 kPa
+- **Machine 2:** 338 K | 200 kPa
+- **Machine 3:** 373 K | 300 kPa
+
+**Quality Benchmarks:**
+- **USL:** 10 $\Omega$
+- **Objective:** Minimize $\Omega$ (Lower is better).
+
+**Analysis:**
+As shown in the chart, we evaluate the distribution of `PartResistance` against environmental stressors. The dashed line indicates the Upper Specification Limit.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_live_box.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Machine Performance Analysis
+
+**Operational Parameters:**
+- **Machine 1:** 303 K | 100 kPa
+- **Machine 2:** 338 K | 200 kPa
+- **Machine 3:** 373 K | 300 kPa
+
+**Quality Benchmarks:**
+- **USL:** 10 $\Omega$
+- **Objective:** Minimize $\Omega$ (Lower is better).
+
+**Analysis:**
+As shown in the chart, we evaluate the distribution of `PartResistance` against environmental stressors. The dashed line indicates the Upper Specification Limit.
+::: 
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_live_box.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
