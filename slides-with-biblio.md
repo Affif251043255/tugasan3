@@ -313,5 +313,129 @@ Following @carnot1824, we observe how environmental variables (P, T) correlate w
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Statistical Analysis (ANOVA)
+
+**Decision Support:**
+- **Hypothesis:** Does varying P/T significantly impact $\Omega$?
+- **Result:** The calculated p-value is **0** (to 4 decimal places).
+- **Conclusion:** There is a statistically significant difference between the machines.
+
+**Quality Target:**
+- USL: 10 $\Omega$
+- Objective: Minimize resistance.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_anova.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Dimensional Correlation
+
+**Key Observations:**
+- Evaluation of how PartLength relates to $\Omega$.
+- Differentiation by machine processing units.
+- Data points clustered by Temperature/Pressure settings.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/length_vs_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Statistical Analysis (ANOVA)
+
+**Decision Support:**
+- **Hypothesis:** Does varying P/T significantly impact $\Omega$?
+- **Result:** The calculated p-value is **0**.
+- **Conclusion:** There is a statistically significant difference between the machines (assuming p-value < 0.05).
+
+**Quality Target:**
+- USL: 10 $\Omega$
+- Objective: Minimize resistance.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_anova_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Statistical Analysis (ANOVA)
+
+**Decision Support:**
+- **Hypothesis:** Does varying P/T significantly impact $\Omega$?
+- **Result:** The calculated p-value is **0**.
+- **Conclusion:** There is a statistically significant difference between the machines (assuming p-value < 0.05).
+
+**Quality Target:**
+- USL: 10 $\Omega$
+- Objective: Minimize resistance.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_anova_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Part Length vs Part Resistance
+
+**Key Observations:**
+- This scatter plot visualizes the relationship between `PartLength` and `PartResistance`.
+- Each point represents a measurement, colored by the `Machine` it originated from.
+- Observe if there are any correlations, clusters, or trends specific to each machine's operating conditions.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/length_vs_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Comparative Machine Performance
+
+**Machine 1 (303 K, 100 kPa):**
+- Exhibits the lowest `PartResistance` on average.
+- Represents the baseline performance under moderate conditions.
+
+**Machine 2 (338 K, 200 kPa):**
+- Shows a noticeable increase in `PartResistance` compared to Machine 1.
+- Performance indicates impact of increased temperature and pressure.
+
+**Machine 3 (373 K, 300 kPa):**
+- Operates under the most extreme conditions, resulting in the highest `PartResistance`.
+- Suggests a direct correlation between operating stress and part quality.
+
+**Overall:**
+- There is a statistically significant difference in `PartResistance` between the machines, confirming the impact of varying temperature and pressure settings.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/resistance_anova_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
